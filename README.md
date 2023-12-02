@@ -12,8 +12,9 @@ usage:
 4. set delay, default is 5 (50/5=10 fps per second)
 5. press pack. a .zxa file will be generated at the root of zx-animator folder.
 6. put this zxa file next to zxanimator.asm (rename your zxa file to 01.zxa)
-7. open a dos (terminal) window and type: pasmo -v --tapbas zxa-animator128.asm animation_out.tap
-8. test the resulting tap file.
+7. Go download pasmo, an opensource zx spectrum assembler https://pasmo.speccy.org/
+8. open a dos (terminal) window and type: pasmo -v --tapbas zxa-animator128.asm animation_out.tap
+9. test the resulting tap file.
 
 
 ; Creative Commons Attribution-NonCommercial 4.0 International Public License 
