@@ -7,7 +7,7 @@ This is just a crude delta compression. See example, 12 frames of animation redu
 
 usage:
 1. draw your screens in zx spectrum SCR format.
-2. open Windows program zx-animator.
+2. open Windows program zx-animator (there is a windows binary release in zip file)
 3. select and load your screens to zxanimator, and arrange them so they are in order.
 4. set delay, default is 5 (50/5=10 fps per second)
 5. press pack. a .zxa file will be generated at the root of zx-animator folder.
