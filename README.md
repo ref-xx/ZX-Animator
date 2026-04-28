@@ -2,8 +2,10 @@
 
 A SCR packer to play similar full screen images as animation  
 
-Not very friendly. this can only relevant if changes between frames are minimal. 
+Not very friendly. this can only relevant if changes between frames are minimal. Or it will try to use fast RLE compression.
 This is just a crude delta compression. See example, 12 frames of animation reduced to 10kb (normally takes ~80kb) and updates up to 50 fps.
+
+v2: Improved player. Not so improved zxa generator.
 
 usage:
 1. draw your screens in zx spectrum SCR format.
